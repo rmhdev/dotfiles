@@ -1,0 +1,13 @@
+# paths
+# PATH here
+
+# editors
+export EDITOR='vim'
+export GIT_EDITOR='vim'
+
+# term colors
+export CLICOLOR=1
+
+# encoding
+export LANG=es_ES.UTF-8
+export LC_CTYPE=es_ES.UTF-8
