@@ -1,14 +1,28 @@
 " rmhdev .vimrc
+
+" environment
 set nocompatible                " Vim settings, rather than Vi settings
 set backspace=indent,eol,start  " Make backspace behave in a sane manner.
-syntax enable                   " code highlighting
+syntax enable                   " Code highlighting
 filetype plugin indent on       " Enable file type detection and do language-dependent indenting.
 set number                      " Always show number lines
+set cursorline                  " Marks the line where the cursor is
+set nobackup                    " Don't create temp files
+
+" indent
+set autoindent                  " Indent at the same level of the previous line
+set copyindent                  " Use the indenting format of the previous line
+set smartindent                 " Do smart autoindenting when starting a new line
+
+" tabs
 set tabstop=4                   " A tab is 4 spaces
 set expandtab                   " A tab is expanded to spaces
 set shiftwidth=4                " Number of spaces to (auto)indent
-set tabstop=4                   " numbers of spaces of tab character
+set tabstop=4                   " Numbers of spaces of tab character
 set smarttab                    " Smart tab handling for indentation
+
+" search
 set showmatch                   " Show matching brackets
-set hlsearch                    " highlight search terms
+set hlsearch                    " Highlight search terms
 set incsearch                   " Show search matches as you type
+
