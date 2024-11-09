@@ -8,3 +8,7 @@ brew install symfony-cli/tap/symfony-cli
 
 symfony php pecl install imagick
 symfony pecl install imagick
+
+nvm install 16
+nvm use 16
+npm install -g yarn

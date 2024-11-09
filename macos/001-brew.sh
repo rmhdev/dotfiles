@@ -1,15 +1,17 @@
 # cli apps:
-brew install vim
-brew install curl
-brew install wget
-brew install git
-brew install mariadb
-brew install jpegoptim
-brew install webp
-brew install wkhtmltopdf
-brew install nvm
-brew install imagemagick
-brew install pkg-config
+brew install \
+      vim \
+      curl \
+      wget \
+      git \
+      mariadb \
+      jpegoptim \
+      webp \
+      wkhtmltopdf \
+      nvm \
+      imagemagick \
+      pkg-config \
+      nss
 
 # Desktop apps:
 brew install --cask firefox
