@@ -5,6 +5,7 @@ brew install \
       wget \
       git \
       mariadb \
+      tmux \
       jpegoptim \
       webp \
       wkhtmltopdf \
